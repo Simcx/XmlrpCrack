@@ -14,7 +14,7 @@ XmlrpCrack use case: password cracking with xmlrpc's system.multicall function
 > You must know the username of the WordPress account you want to do this with.
   The response is a more generic error message so you have to enumerate the username somehow.
 
-# How it Works
+## How it Works
 
 > XmlrpCrack takes a required username and a password wordlist.
 
