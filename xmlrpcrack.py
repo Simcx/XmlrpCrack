@@ -33,7 +33,7 @@ payload += "\n</data></array></value></param></params></methodCall>"
 
 # Optional write payload to file
 if args.output is not None:
-    with open(args.o, 'w') as f:
+    with open(args.output, 'w') as f:
         f.write(payload)
         print(f'\toutput payload to {f.name}...')
 else:
